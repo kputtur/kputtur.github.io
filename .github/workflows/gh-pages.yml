@@ -15,7 +15,11 @@ jobs:
         with:
           submodules: true  # Fetch Hugo themes (true OR recursive)
           fetch-depth: 0    # Fetch all history for .GitInfo and .Lastmod
-
+          
+      - name: Update theme
+        # (Optional)If you have the theme added as submodule, you can pull it and use the most updated version
+        run: git submodule update --init --recursive
+        
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
         with:
@@ -29,5 +33,10 @@ jobs:
         uses: peaceiris/actions-gh-pages@v3
         if: ${{ github.ref == 'refs/heads/main' }}
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+          personal_token: ${{ secrets.TOKEN }}
+          external_repository: kputtur/kputtur.github.io
           publish_dir: ./public
+          #
+          user_name: kputtur
+          user_email: kiran.puttur@gmail.com
+          publish_branch: master
