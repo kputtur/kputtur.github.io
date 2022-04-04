@@ -7,6 +7,6 @@ Technology I tinker with no specific order.
 
 
 #### 🛠 I write code in
-* C,  C++, Ada, Spark *
+* C,  C++, Ada, Spark Python *
 
 [![Website](https://img.shields.io/badge/Website-kputtur.github.io-green?style=flat-square)](https://kputtur.github.io)
