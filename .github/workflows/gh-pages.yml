@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 name: GitHub Pages
+=======
+name: CI
+>>>>>>> parent of 1c0d857 (deploy: kputtur/kputtur.github.io@15001d7dde3c1057d41d9cc7e216c5886e5a4732)
 
 on:
   push:
@@ -11,7 +15,12 @@ jobs:
   deploy:
     runs-on: ubuntu-20.04
     steps:
+<<<<<<< HEAD
       - uses: actions/checkout@v3
+=======
+      - name: Git Checkout
+        uses: actions/checkout@v3
+>>>>>>> parent of 1c0d857 (deploy: kputtur/kputtur.github.io@15001d7dde3c1057d41d9cc7e216c5886e5a4732)
         with:
           submodules: true  # Fetch Hugo themes (true OR recursive)
           fetch-depth: 0    # Fetch all history for .GitInfo and .Lastmod
@@ -31,7 +40,10 @@ jobs:
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
+<<<<<<< HEAD
         if: ${{ github.ref == 'refs/heads/main' }}
+=======
+>>>>>>> parent of 1c0d857 (deploy: kputtur/kputtur.github.io@15001d7dde3c1057d41d9cc7e216c5886e5a4732)
         with:
           personal_token: ${{ secrets.TOKEN }}
           external_repository: kputtur/kputtur.github.io
