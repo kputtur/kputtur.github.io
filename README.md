@@ -10,4 +10,4 @@ Technology I tinker with no specific order.
 * C,  C++, Ada, Spark Python *
 
 [![Website](https://img.shields.io/badge/Website-kputtur.github.io-green?style=flat-square)](https://kputtur.github.io)
-[![GitHub Pages](https://github.com/kputtur/kputtur.github.io/actions/workflows/gh-pages.yml/badge.svg?branch=gh-pages)](https://github.com/kputtur/kputtur.github.io/actions/workflows/gh-pages.yml)
+[![CI](https://github.com/kputtur/kputtur.github.io/actions/workflows/gh-pages.yml/badge.svg?branch=gh-pages)](https://github.com/kputtur/kputtur.github.io/actions/workflows/gh-pages.yml)
