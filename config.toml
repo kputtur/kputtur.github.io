@@ -1,0 +1,4 @@
+baseURL = 'https://kputtur.github.io'
+languageCode = 'en-us'
+title = 'First Trial with Hugo'
+theme = "ananke"
