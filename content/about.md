@@ -1,25 +1,16 @@
 +++
 title = "About"
-description = "Hugo, the world's fastest framework for building websites"
-date = "2019-02-28"
-aliases = ["about-us", "about-hugo", "contact"]
-author = "Hugo Authors"
+description = "A little about myself from the ground up"
+date = "2022-04-05"
+aliases = ["about-me", "about-myself", "contact"]
+author = "Kiran Puttur"
 +++
+Accomplished Technology leader with extensive experience in leading geographically diverse teams by example, and with feedback and coaching. Focused career spanning 
+more than 20 years in Software Engineering with diverse background in Storage Software, Operating Systems, Virtualization, Graphics, Compilers, and BLAS libraries.
 
-Written in Go, Hugo is an open source static site generator available under the [Apache Licence 2.0.](https://github.com/gohugoio/hugo/blob/master/LICENSE) Hugo supports TOML, YAML and JSON data file types, Markdown and HTML content files and uses shortcodes to add rich content. Other notable features are taxonomies, multilingual mode, image processing, custom output formats, HTML/CSS/JS minification and support for Sass SCSS workflows.
+* <img src="https://store-images.s-microsoft.com/image/apps.20966.13599037783181022.b05b7adf-6b7a-44ae-9a70-9dc9370ea7e6.4cd88c60-6ff1-4b0f-aed6-8e2efa5629c1" width="30">  Working as Senior Manager - Tegra Automotive - Managing multiple teams working on Automotive Solution
+* <img src="https://store-images.s-microsoft.com/image/apps.20966.13599037783181022.b05b7adf-6b7a-44ae-9a70-9dc9370ea7e6.4cd88c60-6ff1-4b0f-aed6-8e2efa5629c1" width="30"> Worked as Graphics Manager for Automotive.
+* <img src="https://logos-world.net/wp-content/uploads/2020/03/AMD-Symbol.png" width="60"> Worked as Software Engineering Manager - Focusing on Compilers, Developer Tools such as profilers, Debuggers, Simulation tools.
+* <img src="https://cdn.freebiesupply.com/images/large/2x/hewlett-packard-logo-black-and-white.png" width="50">  Module Lead - Unix - Linux Operating Systems for Proliant
+  
 
-Hugo makes use of a variety of open source projects including:
-
-* https://github.com/yuin/goldmark
-* https://github.com/alecthomas/chroma
-* https://github.com/muesli/smartcrop
-* https://github.com/spf13/cobra
-* https://github.com/spf13/viper
-
-Hugo is ideal for blogs, corporate websites, creative portfolios, online magazines, single page applications or even a website with thousands of pages.
-
-Hugo is for people who want to hand code their own website without worrying about setting up complicated runtimes, dependencies and databases.
-
-Websites built with Hugo are extremely fast, secure and can be deployed anywhere including, AWS, GitHub Pages, Heroku, Netlify and any other hosting provider.
-
-Learn more and contribute on [GitHub](https://github.com/gohugoio).
